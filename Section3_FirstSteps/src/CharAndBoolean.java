@@ -9,9 +9,9 @@ public class CharAndBoolean {
         char myCopyrightChar = '\u00A9';
         System.out.println(myCopyrightChar);
 
-        boolean myTrueBooleanValue = true;
-        boolean myFalseBooleanValue = false;
-
-        boolean isCustomerOverTwentyOne = true;
+//        boolean myTrueBooleanValue = true;
+//        boolean myFalseBooleanValue = false;
+//
+//        boolean isCustomerOverTwentyOne = true;
     }
 }
