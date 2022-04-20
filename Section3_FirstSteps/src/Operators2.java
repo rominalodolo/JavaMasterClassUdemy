@@ -41,7 +41,29 @@ public class Operators2 {
         System.out.println("10 - 2 = " + result);
 
         boolean isAlien = false;
-        if (isAlien == false) // simplify !isAlien instead of ==  
+        if (isAlien == false) { // simplify !isAlien instead of ==
             System.out.println("It is not an alien");
+            System.out.println("Let's phone home.");
+        }
+
+        int topScore = 80;
+        if(topScore < 100){
+            System.out.println("You have the high score!");
+        }
+
+        int secondTopScore = 70;
+        if ((topScore > secondTopScore) && (topScore < 100)){
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        // OR operator
+        if ((topScore > 90) || (secondTopScore <= 90)){
+            System.out.println("Either or Both of these conditions are true");
+        }
+
+        int newValue = 60;
+        if (newValue == 60){
+            System.out.println("This is true.");
+        }
     }
 }
