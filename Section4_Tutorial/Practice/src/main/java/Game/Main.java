@@ -6,5 +6,10 @@ public class Main {
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
+
+        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("Your final score was " + highScore);
+
+        
     }
 }
