@@ -82,7 +82,23 @@ public class Operators2 {
             System.out.println("Just checking");
         }
 
+        isCar = true;
         boolean wasCar = isCar ? true : false;
+        if (wasCar){
+            System.out.println("wasCar is true");
+        }
 
+        // Challenge
+        double myFirstValue = 20.22d;
+        double mySecondValue = 80.00d;
+        double myTotalValue = (myFirstValue + mySecondValue) * 100.00d;
+        System.out.println("My total for values: " + myTotalValue);
+        double theRemainder = myTotalValue % 40.00d;
+        System.out.println("The remainder value: " + theRemainder);
+        boolean isNoRemainder = (theRemainder == 0) ? true : false;
+        System.out.println("There is no remainer: " + isNoRemainder);
+        if (!isNoRemainder){
+        System.out.println("Some left over");
+        }
     }
 }
