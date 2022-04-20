@@ -61,9 +61,28 @@ public class Operators2 {
             System.out.println("Either or Both of these conditions are true");
         }
 
+//        int newValue = 60;
+//        if (newValue = 60){
+//            System.out.println("This is an error");
+//        }
+
         int newValue = 60;
         if (newValue == 60){
             System.out.println("This is true.");
         }
+
+
+//        boolean isCar = false;
+//        if (isCar = true){
+//            System.out.println("Oops, This is not supposed to happen");
+//        }
+
+        boolean isCar = false;
+        if (isCar){
+            System.out.println("Just checking");
+        }
+
+        boolean wasCar = isCar ? true : false;
+
     }
 }
