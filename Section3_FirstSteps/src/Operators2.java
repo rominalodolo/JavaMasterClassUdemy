@@ -41,7 +41,7 @@ public class Operators2 {
         System.out.println("10 - 2 = " + result);
 
         boolean isAlien = false;
-        if (isAlien == false)
+        if (isAlien == false) // simplify !isAlien instead of ==  
             System.out.println("It is not an alien");
     }
 }
