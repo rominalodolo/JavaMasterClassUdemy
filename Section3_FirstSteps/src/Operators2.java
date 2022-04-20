@@ -39,5 +39,9 @@ public class Operators2 {
         // result = result - 2
         result -= 2;  // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
+
+        boolean isAlien = false;
+        if (isAlien == false)
+            System.out.println("It is not an alien");
     }
 }
