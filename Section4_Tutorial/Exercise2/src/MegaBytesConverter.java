@@ -1,13 +1,19 @@
 public class MegaBytesConverter {
 
-    int kilobytes = XX;
-    int megabytes = YY;
-    int remainder = ZZ;
+    static int megaBytes = 1;
+    static int kiloBytes = 1024;
 
-    public static void printMegaBytesAndKiloBytes {
-        System.out.println(printMegaBytesAndKiloBytes(2500));
-        System.out.println(printMegaBytesAndKiloBytes(-1024));
-        System.out.println(printMegaBytesAndKiloBytes(5000));
+
+    public static int megaBytes(int kiloBytes) {
+        if (megaBytes < 0) {
+            return -1;
+        }
+        return kiloBytes / megaBytes;
+    }
+
+    public static void printMegaBytesAndKiloBytes(){
+
+        if
     }
 
 
@@ -20,5 +26,6 @@ public class MegaBytesConverter {
 // kiloBytes is less than 0 "Invalid Value"
 // YY < 0 return ("Invalid Value")
 // print format "XX KB = YY MB and ZZ KB"
-// remainder operator
+// remainder operator '%'
 // 1 MB = 1024 KB
+
