@@ -1,0 +1,12 @@
+Description:
+
+For this exercise, create 4 classes of vehicles. 1. Car, 2. Mitsubishi, 3. Holden, 4. Ford.
+
+First class contains 4 member variables, or fields, with these names and conditions:
+- engine of type boolean
+- cylinders of type int
+- name of type String
+- wheels of type int
+
+all these for member variables should have private access
+
