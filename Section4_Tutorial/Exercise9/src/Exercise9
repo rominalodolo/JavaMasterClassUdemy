@@ -1,4 +1,4 @@
-Write a method printYearsAndDays with parameter of type long named minutes.
+Write a method MinutesToYearsDaysCalculator with parameter of type long named minutes.
 
 The method should not return anything (void) and it needs to calculate the years and days from the minutes parameter.
 
@@ -13,11 +13,11 @@ ZZ represents the calculated days.
 
 EXAMPLES OF INPUT/OUTPUT:
 
-* printYearsAndDays(525600);  → should print "525600 min = 1 y and 0 d"
+* MinutesToYearsDaysCalculator(525600);  → should print "525600 min = 1 y and 0 d"
 
-* printYearsAndDays(1051200); → should print "1051200 min = 2 y and 0 d"
+* MinutesToYearsDaysCalculator(1051200); → should print "1051200 min = 2 y and 0 d"
 
-* printYearsAndDays(561600);  → should print "561600 min = 1 y and 25 d"
+* MinutesToYearsDaysCalculator(561600);  → should print "561600 min = 1 y and 25 d"
 
 
 TIPS:
@@ -34,7 +34,7 @@ TIPS:
 
 NOTES
 
-* The printYearsAndDays method needs to be defined as public static like we have been doing so far in the course.
+* The MinutesToYearsDaysCalculator method needs to be defined as public static like we have been doing so far in the course.
 
 * Do not add main method to solution code.
 
