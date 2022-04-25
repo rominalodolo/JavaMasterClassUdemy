@@ -1,7 +1,7 @@
 public class MegaBytesConverter {
 
     static int megaBytes = 1;
-    static int kiloBytes = 1024;
+    static int kiloBytes = megaBytes(1024);
 
 
     public static int megaBytes(int kiloBytes) {
