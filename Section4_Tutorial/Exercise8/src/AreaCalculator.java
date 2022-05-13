@@ -3,9 +3,10 @@ import static java.lang.Math.PI;
 public class AreaCalculator {
     public static double area (double radius){
         if ((radius * radius) * PI ){
-            return double;
+            return area();
+        }else {
+            return -1.0;
         }
-        return -1;
     }
 
     public static double area (double x, double y){ //overload method
