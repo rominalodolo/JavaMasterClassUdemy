@@ -22,7 +22,7 @@ EXAMPLES OF INPUT/OUTPUT:
 
 * isTeen(9);  should return false since 9 is in not range 13 - 19
 
-*isTeen(9);  should return true since 13 is in range 13 - 19
+*isTeen(13);  should return true since 13 is in range 13 - 19
 
 NOTE: All methods need to be defined as public static like we have been doing so far in the course.
 NOTE: Do not add a  main method to solution code.
