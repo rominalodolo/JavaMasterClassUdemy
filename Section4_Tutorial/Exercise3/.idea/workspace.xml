@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395ec309-21c5-4251-b5d9-0ed66d8d89ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/MegaBytesConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2/out/production/Exercise2/MegaBytesConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2/src/MegaBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2/src/MegaBytesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BarkingDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BarkingDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise3" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
